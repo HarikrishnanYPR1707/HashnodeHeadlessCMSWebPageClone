@@ -1,10 +1,11 @@
 import "./App.css";
+import Navbar from "./component/Navbar/Navbar";
 
 function App() {
   return (
-    <div className="font-black underline uppercase text-amber-500">
-      Hashnode Headless CMS
-    </div>
+    <>
+      <Navbar />
+    </>
   );
 }
 
