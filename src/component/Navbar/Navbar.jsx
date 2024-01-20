@@ -1,7 +1,7 @@
 import React from "react";
-import HashnodeLogo from "../SVG/HashnodeLogo";
 import { IoIosArrowDown } from "react-icons/io";
 import { RxHamburgerMenu } from "react-icons/rx";
+import HashnodeLogo from "../SVG/HashnodeLogo";
 
 const Navbar = () => {
   return (
