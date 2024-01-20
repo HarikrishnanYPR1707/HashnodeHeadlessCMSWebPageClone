@@ -8,11 +8,13 @@ const Navbar = () => {
       <div className="w-full">
         <div className="mx-auto flex max-w-[1500px] items-center justify-between px-4">
           {/* Hashnode logo  */}
-          <div className="w-[180px]">
-            <HashnodeLogo />
+          <div className="">
+            <div className="w-[144px] lg:w-[180px]">
+              <HashnodeLogo />
+            </div>
           </div>
           {/* nav links  */}
-          <div className="text-hashnodeText flex w-full items-center justify-center gap-5 text-[.875rem] font-semibold">
+          <div className="text-hashnodeText hidden w-full gap-5 text-[.875rem] font-semibold xl:flex xl:items-center xl:justify-center">
             <a
               href="/"
               className="rounded-full border-[2px] border-transparent px-5 py-2 hover:border-hashnodeBorder active:outline active:outline-[3px] active:outline-offset-2 active:outline-hashnodeLightBlue"
