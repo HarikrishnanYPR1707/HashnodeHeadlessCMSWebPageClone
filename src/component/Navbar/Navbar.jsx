@@ -1,14 +1,15 @@
 import React from "react";
 import HashnodeLogo from "../SVG/HashnodeLogo";
 import { IoIosArrowDown } from "react-icons/io";
+import { RxHamburgerMenu } from "react-icons/rx";
 
 const Navbar = () => {
   return (
-    <header className="flex h-[80px] items-center justify-center border-b border-hashnodeBorder bg-hashnodeDarkBlue py-5">
+    <header className="flex h-[74px] items-center justify-center border-b border-hashnodeBorder bg-hashnodeDarkBlue py-5">
       <div className="w-full">
         <div className="mx-auto flex max-w-[1500px] items-center justify-between px-4">
           {/* Hashnode logo  */}
-          <div className="">
+          <div className="flex items-center justify-center gap-5">
             <div className="w-[144px] lg:w-[180px]">
               <HashnodeLogo />
             </div>
