@@ -14,6 +14,7 @@ export default {
         hashnodeLightBlue: "#3b82f6",
         hashnodeDarkBlue: "#010410",
         hashnodeBorder: "rgb(30 41 59 / 0.8)",
+        hashnodeText: "rgb(203 213 225/1)",
       },
     },
   },
