@@ -12,28 +12,28 @@ const Navbar = () => {
             <HashnodeLogo />
           </div>
           {/* nav links  */}
-          <div className="text-hashnodeText flex w-full items-center justify-center gap-10 font-semibold">
+          <div className="text-hashnodeText flex w-full items-center justify-center gap-5 text-[.875rem] font-semibold">
             <a
               href="/"
-              className="rounded-full border border-transparent px-5 py-2 hover:border-hashnodeBorder"
+              className="rounded-full border-[2px] border-transparent px-5 py-2 hover:border-hashnodeBorder active:outline active:outline-[3px] active:outline-offset-2 active:outline-hashnodeLightBlue"
             >
               My Feed
             </a>
             <a
               href="/"
-              className="rounded-full border border-transparent px-5  py-2 hover:border-hashnodeBorder"
+              className="rounded-full border-[2px] border-transparent px-5  py-2 hover:border-hashnodeBorder active:outline active:outline-[3px] active:outline-offset-2 active:outline-hashnodeLightBlue"
             >
               Discussions
             </a>
             <a
               href="/"
-              className="rounded-full border border-transparent px-5  py-2 text-hashnodeLightBlue hover:border-hashnodeBorder"
+              className="rounded-full border-[2px] border-transparent px-5  py-2 text-hashnodeLightBlue hover:border-hashnodeBorder active:outline active:outline-[3px] active:outline-offset-2 active:outline-hashnodeLightBlue"
             >
               Headless
             </a>
             <a
               href="/"
-              className="flex items-center justify-center rounded-full border border-transparent px-5 py-2 hover:border-hashnodeBorder "
+              className="flex items-center justify-center rounded-full border-[2px] border-transparent px-5 py-2 hover:border-hashnodeBorder active:outline active:outline-[3px] active:outline-offset-2 active:outline-hashnodeLightBlue"
             >
               <span className="">More</span>
               <IoIosArrowDown />
